@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Conversor de Moneda</title>
+    <link rel="stylesheet" href="Exchange.css" />
+  </head>
+  <body>
+    <h1>Conversor de Moneda</h1>
+    <form id="formulario-conversor">
+      <label for="cantidad">Cantidad:</label>
+      <input
+        type="number"
+        id="cantidad"
+        name="cantidad"
+        min="0"
+        step="any"
+        required
+      />
+      <br />
+      <label for="moneda-desde">Desde:</label>
+      <select id="moneda-desde" name="moneda-desde">
+        <option value="USD">Dólares EEUU (oficial)</option>
+        <option value="EUR">Euros</option>
+        <option value="JPY">Yenes Japoneses</option>
+        <option value="ARS">Pesos Argentinos</option>
+        <!-- Agrega aquí más opciones de moneda si lo deseas -->
+      </select>
+      <br />
+      <label for="moneda-hacia">Hacia:</label>
+      <select id="moneda-hacia" name="moneda-hacia">
+        <option value="ARS">Pesos Argentinos</option>
+        <option value="USD">Dólares EEUU (oficial)</option>
+        <option value="EUR">Euros</option>
+        <option value="JPY">Yenes Japoneses</option>
+
+        <!-- Agrega aquí más opciones de moneda si lo deseas -->
+      </select>
+      <br />
+      <button type="submit">Convertir</button>
+    </form>
+
+    <!-- Aquí se mostrará el resultado -->
+    <div id="resultado"></div>
+
+    <footer>
+      Powered by
+      <a href="https://openexchangerates.org">https://openexchangerates.org</a>
+    </footer>
+
+    <script src="Exchange.js"></script>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  max-width: 500px;
+  padding: 30px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input,
+select {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+button[type="submit"]:hover {
+  background-color: #444;
+}
+
+#resultado {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  max-width: 500px;
+  padding: 30px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+
+footer a {
+  color: #444;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
